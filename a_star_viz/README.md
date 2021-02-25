@@ -23,7 +23,7 @@ conda create --name <env_name> --file requirements.txt`
 ## Run
 To run the programme and play the game simply run the `a_star.py` file on your favourite IDE or from the terminal use:
 ```python
-python a_star_gui/a_star.py
+python a_star_viz/a_star.py
 ```
 ## Play
 - The first click to the canvas sets the `start node`, orange coloured square;
