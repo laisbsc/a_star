@@ -12,13 +12,14 @@ To install the dependencies:
 
 Run from the root folder on the terminal
 ```shell
-pip install -r requirements.txt`
+pip install -r requirements.txt
 ```
 * Using `conda`:
+`cd` into the a_star_viz folder and run
 ```shell
-conda create --name <env_name> --file requirements.txt`
+conda env create --name a_star --file environment.yml
 ```
-> The conda command above creates a virtual environment named <env_name> with the dependencies on the `requirements.txt` file.
+> The conda command above creates a virtual environment named <env_name> with the dependencies on the `environments.yml` file.
 
 ## Run
 To run the programme and play the game simply run the `a_star.py` file on your favourite IDE or from the terminal use:
