@@ -2,7 +2,7 @@
 This repository contains the implementation on the form of a game with GUI of the A* search algorithm.
 > NOTE: Pygame supports `Python version 3.5`. Keep this in mind when creating your virtual environment.
 
-![image](https://github.com/laisbsc/a_star/blob/master/a_star_gui/pygame_astar.gif)
+![image](https://github.com/laisbsc/a_star/blob/master/a_star_viz/pygame_astar.gif)
 
 ## Install 
 To run this repository, please create a virtual environment, activate it, and install the dependencies on `requirements.txt` beforehand.
@@ -23,7 +23,7 @@ conda create --name <env_name> --file requirements.txt`
 ## Run
 To run the programme and play the game simply run the `a_star.py` file on your favourite IDE or from the terminal use:
 ```python
-python a_star_gui/a_star.py
+python a_star_viz/a_star.py
 ```
 ## Play
 - The first click to the canvas sets the `start node`, orange coloured square;
